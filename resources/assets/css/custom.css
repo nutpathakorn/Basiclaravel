@@ -1,0 +1,103 @@
+body
+{
+
+	/*background-color: #90CAF9*/
+}
+
+.navbar {  
+    margin-bottom: 0px;  
+}
+.carousel{
+	padding-top: 50px;
+}
+
+.jumbotron {
+    background-color: #0277BD;
+    color: #ECE7E7
+}
+.glyphicon-lock .glyphicon-heart .glyphicon-tint{
+	font-size: 60px;
+	color: #E91E63;
+}
+
+.footer
+{
+
+	background-color: #757575;
+	margin-top: 40px;
+	padding-top: 40px;
+}
+
+ul.list-unstyled li{
+
+	color: #E8DEDE;
+}
+
+ul.list-unstyled li a{
+
+	color: #E8DEDE;
+}
+
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+{
+	background-color: #E91E63;
+	color: #ECE7E7;
+	font-weight: bold;
+}
+
+.registerbox
+{
+	padding-top: 50px;
+}
+
+/* Credit to bootsnipp.com for the css for the color graph */
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+.alert{
+
+	padding: 0px;
+}
+
+.msgbox{
+
+	padding: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+	.carousel
+	{
+			padding-top: 150px;
+	}	
+
+	.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    right: 50%;
+    margin-right: -10px;
+    font-size: 20px;
+	}
+
+	.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    right: 50%;
+    margin-right: -10px;
+    font-size: 40px;
+	}
+
+	.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    left: 50%;
+    margin-left: -10px;
+    font-size: 40px;
+	}
+  }
+}
+
